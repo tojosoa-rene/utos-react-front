@@ -33,3 +33,29 @@ input {
   border: none;
   border-radius: 5px;
 }
+
+/* wrapper password */
+.password-wrapper {
+  position: relative;
+}
+
+/* icon maso */
+.toggle-password {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+  user-select: none;
+}
+
+/* forgot password */
+.forgot-password {
+  font-size: 12px;
+  color: #c8a96a;
+  cursor: pointer;
+  text-align: right;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}
